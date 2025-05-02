@@ -13,6 +13,14 @@
   <maintainer email="zaidal@todo.todo">zaidal</maintainer>
   <license>MIT</license>
 
+  <description>Simulación y navegación autónoma del Puzzlebot en Gazebo usando ROS 2</description>
+  <maintainer email="alex@todo.todo">alex</maintainer>
+  <license>MIT</license>
+
+  <description>Simulación y navegación autónoma del Puzzlebot en Gazebo usando ROS 2</description>
+  <maintainer email="julio@todo.todo">julio</maintainer>
+  <license>MIT</license>
+
   <!-- Dependencias principales -->
   <depend>rclpy</depend>
   <depend>gazebo_ros</depend>
