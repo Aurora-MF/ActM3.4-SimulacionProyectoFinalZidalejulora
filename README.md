@@ -1,7 +1,7 @@
 # TE3003B - zaidalejulora_nav2_puzzlebot (Team 3)
 
 **Description**  
-PONER DESCRIPCIÓN
+This project demonstrates the creation and simulation of a ROS 2 package focused on autonomous navigation using the PuzzleBot robot in a custom Gazebo Garden environment. 
 
 
 **Authors** 
@@ -11,7 +11,7 @@ PONER DESCRIPCIÓN
 - Julio David REséndiz Cruz - A01709375
 
 **License**  
-Apache 2.0 – see [LICENSE](https://github.com/Aurora-MF/ActM3.4-SimulacionProyectoFinalZidalejulora/blob/main/LICENSE)
+Apache 2.0 – see [LICENSE](https://github.com/Aurora-MF/ActM3.4-SimulacionProyectoFinalZidalejulora/main/LICENSE)
 
 
 
@@ -21,8 +21,17 @@ Apache 2.0 – see [LICENSE](https://github.com/Aurora-MF/ActM3.4-SimulacionProy
 - Python3
 - Gazebo Garden
 
-**Commands To Run**
+**Commands To Run (Mapping)**
 ```
-PONER COMANDOS
+ cd ros2_ws/
+ros2 launch zaidalejulora_nav2_puzzlebot zaidalejulora_launch.py mode:=map 
+
+```
+
+**Commands To Run (Navigation)**
+```
+ cd ros2_ws/
+ros2 launch zaidalejulora_nav2_puzzlebot zaidalejulora_launch.py mode:=nav
+
 ```
 
