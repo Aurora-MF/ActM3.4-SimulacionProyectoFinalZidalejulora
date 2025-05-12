@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/auromtf/ros2_ws/install/zaidalejulora_nav2_puzzlebot/lib/python3.10/site-packages",
+        "/home/auromtf/ros2_ws/install/tf_examples/lib/python3.10/site-packages",
+        "/home/auromtf/ros2_ws/install/puzzlebot_sim/lib/python3.10/site-packages",
+        "/home/auromtf/ros2_ws/install/puzzlebot_gazebo/lib/python3.10/site-packages",
+        "/home/auromtf/ros2_ws/install/puzzlebot_description/lib/python3.10/site-packages",
+        "/home/auromtf/ros2_ws/install/blackpearls_nav2_puzzlebot/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/auromtf/ros2_ws/install/zaidalejulora_nav2_puzzlebot/lib/python3.10/site-packages",
+        "/home/auromtf/ros2_ws/install/tf_examples/lib/python3.10/site-packages",
+        "/home/auromtf/ros2_ws/install/puzzlebot_sim/lib/python3.10/site-packages",
+        "/home/auromtf/ros2_ws/install/puzzlebot_gazebo/lib/python3.10/site-packages",
+        "/home/auromtf/ros2_ws/install/puzzlebot_description/lib/python3.10/site-packages",
+        "/home/auromtf/ros2_ws/install/blackpearls_nav2_puzzlebot/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
