@@ -2,38 +2,26 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>zaidalejulora_nav2_puzzlebot</name>
-  <version>0.0.0</version>
+  <version>1.0.0</version>
   <description>Navigation + simulation setup for Puzzlebot in Gazebo Garden</description>
-  <maintainer email="A01709293@tec.mx">auromtf</maintainer>
+  <maintainer email="A01709293@tec.mx">Daniela Aurora Martinez Fajardo</maintainer>
+  <maintainer email="A01708755@tec.mx">Zaida Irais Lopez Mendieta</maintainer>
+  <maintainer email="A0179475@tec.mx">Francisco Alejandro Velázquez Ledesma</maintainer>
+  <maintainer email="A01709375@tec.mx">DJulio David Reséndiz Cruz</maintainer>
   <license>MIT</license>
 
-  <!-- Build dependencies -->
-  <buildtool_depend>ament_cmake</buildtool_depend>
+  <!-- Dependencias para la simulacion con Gazebo y para el robot simulado -->
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>ros2launch</depend>
+  <depend>tf2_ros_py</depend>
+  <depend>python3-numpy</depend>
+  <depend>python3-transforms3d</depend>
+  <depend>rclpy</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>joint_state_publisher_gui</depend>
 
-  <!-- Execution dependencies -->
-  <exec_depend>rclpy</exec_depend>
-  <exec_depend>launch</exec_depend>
-  <exec_depend>launch_ros</exec_depend>
-  <exec_depend>robot_state_publisher</exec_depend>
-  <exec_depend>ros_gz_sim</exec_depend>
-  <exec_depend>ros_gz_interfaces</exec_depend>
-  <exec_depend>ros_gz_bridge</exec_depend>
-
-   <!-- Dependencias de Nav2 -->
-  <depend>slam_toolbox</depend>
-  <depend>navigation2</depend>
-
-  <!-- For parsing URDF and publishing joint states -->
-  <exec_depend>joint_state_publisher</exec_depend>
-  <exec_depend>joint_state_publisher_gui</exec_depend>
-  <exec_depend>xacro</exec_depend>
-
-  <!-- Optional dependencies (if needed) -->
-  <exec_depend>nav2_bringup</exec_depend>
-  <exec_depend>geometry_msgs</exec_depend>
-  <exec_depend>std_msgs</exec_depend>
-
-  <!-- Test dependencies -->
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
