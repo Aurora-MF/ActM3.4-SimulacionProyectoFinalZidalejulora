@@ -11,7 +11,7 @@ This project demonstrates the creation and simulation of a ROS 2 package focused
 - Julio David REséndiz Cruz - A01709375
 
 **License**  
-cambiar license a la de MIT
+https://github.com/Aurora-MF/ActM3.4-SimulacionProyectoFinalZidalejulora/blob/main/LICENSE
 
 
 **Requirements**
